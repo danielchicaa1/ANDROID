@@ -29,6 +29,7 @@
         android:drawableStart="@drawable/ic_baseline_numbers_24"
         android:ems="10"
         android:hint="Id. Libro"
+        android:textColor="@color/gray"
         android:inputType="number"
         android:textColorHint="@color/gray" />
 
@@ -40,6 +41,7 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Nombre"
+        android:textColor="@color/gray"
         android:inputType="textPersonName"
         android:textColorHint="@color/gray" />
 
@@ -52,6 +54,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
+        android:textColor="@color/gray"
         android:hint="Costo"/>
 
     <EditText

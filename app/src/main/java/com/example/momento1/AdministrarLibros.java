@@ -134,7 +134,10 @@ public class AdministrarLibros extends AppCompatActivity {
                 }
                 int idLibro = Integer.parseInt(idString);
                 int costo = Integer.parseInt(costoString);
-                int available = Integer.parseInt(availableString);
+                int available=1;
+                        if(availableString.equals("Disponible")){
+                            available = 0 ;
+                        }
                 updateLibro(idLibro, nombre, costo, available);
             }
         });
